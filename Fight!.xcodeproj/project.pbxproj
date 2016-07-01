@@ -14,6 +14,8 @@
 		F57CABE21D26906C007201A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F57CABE01D26906C007201A2 /* LaunchScreen.storyboard */; };
 		F57CABED1D26906C007201A2 /* Fight_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CABEC1D26906C007201A2 /* Fight_Tests.swift */; };
 		F57CABF81D26906C007201A2 /* Fight_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CABF71D26906C007201A2 /* Fight_UITests.swift */; };
+		F57CAC061D26908B007201A2 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CAC051D26908B007201A2 /* Player.swift */; };
+		F57CAC091D2697E1007201A2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57CAC081D2697E1007201A2 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,9 @@
 		F57CABF31D26906C007201A2 /* Fight!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fight!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F57CABF71D26906C007201A2 /* Fight_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fight_UITests.swift; sourceTree = "<group>"; };
 		F57CABF91D26906C007201A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F57CAC051D26908B007201A2 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F57CAC071D269657007201A2 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		F57CAC081D2697E1007201A2 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +107,10 @@
 				F57CABDB1D26906C007201A2 /* Main.storyboard */,
 				F57CABDE1D26906C007201A2 /* Assets.xcassets */,
 				F57CABE01D26906C007201A2 /* LaunchScreen.storyboard */,
+				F57CAC071D269657007201A2 /* Minecraft.ttf */,
 				F57CABE31D26906C007201A2 /* Info.plist */,
+				F57CAC051D26908B007201A2 /* Player.swift */,
+				F57CAC081D2697E1007201A2 /* Game.swift */,
 			);
 			path = "Fight!";
 			sourceTree = "<group>";
@@ -256,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57CAC061D26908B007201A2 /* Player.swift in Sources */,
 				F57CABDA1D26906B007201A2 /* ViewController.swift in Sources */,
 				F57CABD81D26906B007201A2 /* AppDelegate.swift in Sources */,
+				F57CAC091D2697E1007201A2 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
